@@ -11,7 +11,7 @@ namespace CRUD.Models
 
         [Required(ErrorMessage = "Informe o nome")]
         [StringLength(80, ErrorMessage = "O nome deve conter até 80 caracteres")]
-        [MinLength(5, ErrorMessage = "O noime deve conter pelo menos 5 caracteres")]
+        [MinLength(5, ErrorMessage = "O nome deve conter pelo menos 5 caracteres")]
         [DisplayName("Nome Completo")]
         public string Name { get; set; } = string.Empty;
 
